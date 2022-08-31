@@ -1,0 +1,162 @@
+body
+    color: #5B5B5B
+
+.header_top
+    background: #628395
+    padding: 10px 0
+    font-size: 12px
+a
+    text-decoration: none
+    color: #fff
+    text-transform: uppercase
+    &:hover
+        color: #ccc
+
+.header_bottom      
+    padding: 10px 0
+    .link__arekibo__logo
+        width: 200px
+
+.mobile__heroimage_arekibo
+    display: none
+
+.heropage_arekibo
+    min-height: 550px
+    background: url('../img/deskimg.png')
+    background-size: cover
+    background-position: center
+    mask-image: url(../img/curves/DesktopMask.svg)
+    mask-repeat: no-repeat
+    mask-position: center
+    color: #fff
+    &::before
+        content: ""
+        width: 100%
+        height: 100%
+        background: #000
+        opacity: .2
+        position: absolute
+        z-index: 1
+    h1
+        margin: 50px 0
+    .heropage_arekibo__content
+        position: relative
+        z-index: 2
+        padding-top: 100px
+    a
+        color: #fff
+        text-decoration: none
+        &:hover
+            color: #ccc
+    form
+        select
+            width: 370px
+            border: none
+            margin-bottom: 20px
+            padding: 10px 5px
+            border-radius: 5px
+            font-size: 18px
+            color: #5B5B5B
+    button
+            width: 370px
+            border: none
+            padding: 7px 5px
+            border-radius: 5px
+            font-size: 21px
+            color: #fff
+            background-color:#DE5448
+            display: flex
+            justify-content: space-between
+            align-items: center
+            padding: 7px 14px
+
+.opportunity_content
+    margin: 50px 0
+    text-align: center
+    padding: 0 24%
+    font-size: 18px
+    h2
+        color: #507083
+        margin-bottom: 25px
+        font-size: 32px
+
+.footer
+    background-color: #EFEFEF
+    padding: 50px 0
+    a
+        color: #5B5B5B
+        text-transform: none
+        font-size: 18px
+        &:hover
+            opacity: .3
+    .divider
+        width: 100%
+        background: #d9d9d9
+        height: 1px
+        margin: 20px 0
+    .socials
+        width: 100%
+        display: flex
+        justify-content: space-between
+
+@media (max-width: 1200px)
+    .heropage_arekibo 
+        h1
+            margin: 0
+        #form__arekibo
+            text-align: center
+            max-width: min-content
+            margin: auto
+        .form__arekibo__button
+            margin: auto
+
+@media (max-width: 600px)
+    .header_top
+        text-align: center
+        font-size: 15px
+    .header_bottom
+        text-align: center
+        .link__arekibo__logo
+            width: 150px
+    .mobile__heroimage_arekibo
+        display: block
+        height: 240px
+        width: 100%
+        background: url('../img/deskimg.png')
+        background-size: cover
+        background-position: center
+        mask-image: url(../img/curves/MobileMask.png)
+        mask-size: 100%
+        mask-repeat: no-repeat
+        mask-position: center
+        color: #fff
+        &::before
+            content: ""
+            width: 100%
+            height: 100%
+            background: #000
+            opacity: .2
+            position: absolute
+            z-index: 1
+    .heropage_arekibo
+        background: unset
+        color: #5B5B5B
+        mask-image: unset
+        margin-top: -50px
+        &::before
+            background-color: unset
+        #form__arekibo
+            max-width: unset
+        .heropage_arekibo__content
+            padding-top: 0
+            h1
+                text-align: center
+                color: #628395
+                margin: 50px 0
+            form
+                select
+                    width: 100%
+            button
+                width: 100%
+    .opportunity_content
+        padding: unset

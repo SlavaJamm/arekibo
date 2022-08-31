@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2000px" height="545px" viewBox="0 0 2000 545" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>DesktopMask</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M1.10134124e-13,0 L2000,0 L2000,470 C1666.66667,520 1333.33333,545 1000,545 C666.666667,545 333.333333,520 1.10134124e-13,470 L1.10134124e-13,0 Z" id="path-1"></path>
+    </defs>
+    <g id="Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(0.000000, -140.000000)">
+            <g id="Hero-Image" transform="translate(0.000000, 140.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="DesktopMask" fill="#FFFFFF" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>
